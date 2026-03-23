@@ -7,6 +7,7 @@ import WhyUs from './components/WhyUs'
 import UseCases from './components/UseCases'
 import Faq from './components/Faq'
 import Cta from './components/Cta'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Faq />
         <Cta />
       </main>
+      <Footer />
     </>
   )
 }
