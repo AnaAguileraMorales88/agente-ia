@@ -5,6 +5,8 @@ import Scenario from './components/Scenario'
 import ValueProposition from './components/ValueProposition'
 import WhyUs from './components/WhyUs'
 import UseCases from './components/UseCases'
+import Faq from './components/Faq'
+import Cta from './components/Cta'
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <ValueProposition />
         <WhyUs />
         <UseCases />
+        <Faq />
+        <Cta />
       </main>
     </>
   )
