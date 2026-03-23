@@ -24,7 +24,7 @@ export default function Header() {
                     <img
                         src={logo}
                         alt="Logo de la empresa"
-                        className="h-20 sm:h-25 md:h-30 lg:h-50 w-auto"
+                        className="h-20 sm:h-25 md:h-30 lg:h-40 w-auto"
                     />
                 </a>
 
