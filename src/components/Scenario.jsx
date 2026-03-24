@@ -1,3 +1,5 @@
+    import imagen3 from '../assets/images/Imagen3.jpg'
+
     const BENEFITS = [
     'Cada cliente recibe respuesta en segundos, automáticamente.',
     'El sistema filtra tu embudo y cita de leads serios.',
@@ -14,7 +16,7 @@
         <article className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-10">
             <figure className="flex-1 m-0">
             <img
-                src="/src/assets/images/Imagen1.jpg"
+                src={imagen3}
                 alt="Profesional de reformas gestionando clientes automáticamente con IA"
                 className="w-full h-auto rounded-2xl object-cover"
             />

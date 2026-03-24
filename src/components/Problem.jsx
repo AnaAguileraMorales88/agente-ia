@@ -1,3 +1,5 @@
+    import imagen2 from '../assets/images/Imagen2.jpg'
+
     const PROBLEMS = [
     {
         title: 'Leads sin respuesta',
@@ -46,7 +48,7 @@
             </header>
             <figure className="flex-1 m-0">
             <img
-                src="/src/assets/images/Imagen2.jpg"
+                src={imagen2}
                 alt="Constructor desbordado gestionando múltiples consultas sin sistema automatizado"
                 className="w-full h-auto rounded-2xl object-cover"
             />

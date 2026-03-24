@@ -1,3 +1,5 @@
+    import imagen2 from '../assets/images/Imagen2.jpg'
+
     const FAQS = [
     {
         question: '"No entiendo nada de IA"',
@@ -31,7 +33,7 @@
             <section className="flex flex-col md:flex-row items-start gap-10">
             <figure className="flex-1 m-0">
                 <img
-                src="/src/assets/images/Imagen2.jpg"
+                src={imagen2}
                 alt="Persona dando la mano a un robot, representando la colaboración con IA"
                 className="w-full h-auto rounded-2xl object-cover"
                 />

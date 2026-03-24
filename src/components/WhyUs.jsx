@@ -1,3 +1,5 @@
+        import imagen2 from '../assets/images/Imagen2.jpg'
+
     const REASONS = [
     {
         title: 'Sector reformas',
@@ -46,7 +48,7 @@
             </header>
             <figure className="flex-1 m-0">
             <img
-                src="/src/assets/images/imagen2.jpg"
+                src={imagen2}
                 alt="Equipo especializado en inteligencia artificial para el sector reformas"
                 className="w-full h-auto rounded-2xl object-cover"
             />
