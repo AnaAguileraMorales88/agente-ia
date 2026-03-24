@@ -2,17 +2,17 @@ import { useState } from 'react'
 import logo from '../assets/images/Logo.jpeg'
 
 const NAV_LINKS = [
-    { href: '#¿qué-ofrecemos?', label: 'Qué ofrecemos' },
+    { href: '#inicio', label: 'Inicio' },
     { href: '#servicios', label: 'Servicios' },
+    { href: '#que-ofrecemos', label: 'Qué ofrecemos' },
     { href: '#sobre-nosotros', label: 'Sobre nosotros' },
-    { href: '#contacto', label: 'Contacto' },
 ]
 
 export default function Header() {
     const [isOpen, setIsOpen] = useState(false)
 
     return (
-        <header className="sticky top-0 z-50 bg-white shadow-sm">
+        <header className="sticky top-0 z-30 bg-white shadow-sm">
             <nav
                 className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between"
                 aria-label="Navegación principal"
@@ -25,7 +25,7 @@ export default function Header() {
                     <img
                         src={logo}
                         alt="Logo de la empresa"
-                        className="h-20 sm:h-25 md:h-30 lg:h-40 w-auto"
+                        className="h-20 sm:h-25 md:h-30 lg:h-20 w-auto"
                     />
                 </a>
 

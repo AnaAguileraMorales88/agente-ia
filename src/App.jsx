@@ -5,7 +5,7 @@ import Problem from './components/Problem'
 import Scenario from './components/Scenario'
 import ValueProposition from './components/ValueProposition'
 import WhyUs from './components/WhyUs'
-import UseCases from './components/UseCases'
+import Team from './components/Team'
 import Faq from './components/Faq'
 import Cta from './components/Cta'
 import Footer from './components/Footer'
@@ -17,14 +17,14 @@ function App() {
       <Header />
       <main>
         <Hero />
-        <WhatWeOffer />
         <Problem />
         <Scenario />
         <ValueProposition />
-        <WhyUs />
-        <UseCases />
         <Faq />
+        <WhatWeOffer />
         <Cta />
+        <WhyUs />
+        <Team />
       </main>
       <Footer />
     </>
