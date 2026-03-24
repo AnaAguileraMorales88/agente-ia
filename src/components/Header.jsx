@@ -2,6 +2,7 @@ import { useState } from 'react'
 import logo from '../assets/images/Logo.jpeg'
 
 const NAV_LINKS = [
+    { href: '#¿qué-ofrecemos?', label: 'Qué ofrecemos' },
     { href: '#servicios', label: 'Servicios' },
     { href: '#sobre-nosotros', label: 'Sobre nosotros' },
     { href: '#contacto', label: 'Contacto' },
